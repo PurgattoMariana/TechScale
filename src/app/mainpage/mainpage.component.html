@@ -1,0 +1,86 @@
+<div id="home">
+  <div id="toppicture">
+    <img class="photo" src="../../assets/fotopb.png" width="100%" height="50%">
+    <img class="logo" src="../../assets/prix 1.png">
+    <span class="headername">Balança Virtual</span>
+  </div>
+
+  <div class="horizontal">
+    <div class="explicacao">
+      <span class="headerexplanation"> Simule o Grau de utilização!</span>
+      <span class="bodyexplanation">O grau de utilização se refere ás células de carga que compõem a balança. <br> O peso total é calculado juntando o grau de utilização de cada célula de carga</span>
+    </div>
+
+
+    <form class="form">
+      <div class="linha">
+
+        <div class="unidade">
+          <mat-slider thumbLabel   class="forminput" min="0" max="100" step="1" value="0">
+            <input matSliderThumb [(ngModel)]="value" #slider>
+          </mat-slider>
+          <span class="bodyexplanation">Celula 1</span>
+        </div>
+
+        <div class="unidade">
+          <mat-slider thumbLabel   class="forminput" min="0" max="100" step="1" value="0">
+            <input matSliderThumb [(ngModel)]="value" #slider>
+          </mat-slider>
+          <span class="bodyexplanation">Celula 3</span>
+        </div>
+
+        <div class="unidade">
+          <mat-slider thumbLabel   class="forminput" min="0" max="100" step="1" value="0">
+            <input matSliderThumb [(ngModel)]="value" #slider>
+          </mat-slider>
+          <span class="bodyexplanation">Celula 5</span>
+        </div>
+
+        <div class="unidade">
+          <mat-slider thumbLabel   class="forminput" min="0" max="100" step="1" value="0">
+            <input matSliderThumb [(ngModel)]="value" #slider>
+          </mat-slider>
+          <span class="bodyexplanation">Celula 7</span>
+        </div>
+
+      </div>
+
+      <div class="linha">
+
+        <div class="unidade">
+          <mat-slider thumbLabel   class="forminput" min="0" max="100" step="1" value="0">
+            <input matSliderThumb [(ngModel)]="value" #slider>
+          </mat-slider>
+          <span class="bodyexplanation">Celula 2</span>
+        </div>
+
+        <div class="unidade">
+          <mat-slider thumbLabel   class="forminput" min="0" max="100" step="1" value="0">
+            <input matSliderThumb [(ngModel)]="value" #slider>
+          </mat-slider>
+          <span class="bodyexplanation">Celula 4</span>
+        </div>
+
+        <div class="unidade">
+          <mat-slider thumbLabel   class="forminput" min="0" max="100" step="1" value="0">
+            <input matSliderThumb [(ngModel)]="value" #slider>
+          </mat-slider>
+          <span class="bodyexplanation">Celula 6</span>
+        </div>
+
+        <div class="unidade">
+          <mat-slider thumbLabel   class="forminput" min="0" max="100" step="1" value="0">
+            <input matSliderThumb [(ngModel)]="value" #slider>
+          </mat-slider>
+          <span class="bodyexplanation">Celula 8</span>
+        </div>
+
+      </div>
+
+    </form>
+  </div>
+
+
+
+</div>
+
